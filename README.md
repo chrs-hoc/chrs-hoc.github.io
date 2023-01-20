@@ -7,7 +7,10 @@
 
 ### SDR Setup
 
-* Hardware/Software combinations 
+* Hardware
+* Software
+* Antenna
+
 
 
 * Getting Started 
