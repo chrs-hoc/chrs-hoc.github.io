@@ -1,6 +1,6 @@
 
 # California Historic Radio Society
-##Software Defined Radio @ Winchell Communications Center 
+## Software Defined Radio @ Winchell Communications Center 
 
 ### SDR Setup
 
@@ -37,11 +37,14 @@
 | ELAD          | Text             | And more      |  
 | ELAD          | Text             | And more      |  
 
+### SDR Play specific plug-ins 
+* FRAN 
 
 
 ### Receving audio signals
 
 * AM Broadcast
+
   - Using RSP DUO
   - Using ELAD
 
@@ -59,11 +62,10 @@
 * ATC 
 
 
-
-
 ### Decoding data (audio encoded)
+#### Basics 
+Explanation of basic decoding with virtual audio patch
 
-- Basics 
 
 * CW
 
@@ -83,17 +85,6 @@
 
 * ISM/ Utility meter Standard Consumption Message (SCM) 
 
-
-
-
-
-
 * Trunked Radio/Digital Audio
 
-
-* 
-
-
-
-
-
+* ATCS (TBD) 
