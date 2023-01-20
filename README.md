@@ -1,3 +1,6 @@
+```diff
+- draft for preview only,  work in progress
+```
 
 # California Historic Radio Society
 ## Software Defined Radio @ Winchell Communications Center 
