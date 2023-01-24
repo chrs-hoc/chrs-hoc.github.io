@@ -8,8 +8,14 @@
 ### SDR Setup
 
 * Hardware
+
+RSP DUO and ELAD FDM are the two SDR hardware models available at CHRS HoC. 
 * Software
+
+In addition to the OEM software for the above hardware, we also have HDSDR and SDRConsole installed on the SDR Demo PC
 * Antenna
+
+We are using a discone antenna
 
 
 
@@ -30,18 +36,13 @@
 
 | Hardware      | SDR Software     | Comments      |
 | :---          |    :----:        |          ---: |
-| RSPDuo        | SDR Play         | OEM Software  |
-| ELAD          | FDM              | OEM Software  |
+| RSPDuo        | SDR Uno          | OEM Software  |
+| ELAD FDM      | FDM SW2          | OEM Software  |
 | RSPDuo        | SDR Console      | Freeware      |
 | ELAD          | SDR Console      | Freeware      |
 | RSPDuo        | HDSDR            | Freeware      |
-| ELAD          | Text             | And more      |  
-| ELAD          | Text             | And more      |  
-| ELAD          | Text             | And more      |  
-| ELAD          | Text             | And more      |  
-| ELAD          | Text             | And more      |  
-| ELAD          | Text             | And more      |  
-| ELAD          | Text             | And more      |  
+| ELAD  FDM     | HDSDR            |  Freeware     |  
+
 
 ### SDR Play specific plug-ins 
 * FRAN 
