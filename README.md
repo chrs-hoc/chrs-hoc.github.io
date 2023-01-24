@@ -17,7 +17,7 @@ In addition to the OEM software for the above hardware, we also have HDSDR and S
 
 We are using a discone antenna
 
-![CHRS SDR Antenna](/pic/Antenna.jpgraw=true)
+![CHRS SDR Antenna](https://github.com//chrs-hoc/chrs-hoc.github.io/pic/Antenna.jpgraw=true)
 
 * Getting Started 
 
