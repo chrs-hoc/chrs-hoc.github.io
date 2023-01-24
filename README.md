@@ -19,8 +19,8 @@ RSP Duo
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRplay-RSPduo.jpg"
   alt="RSPDUO SDR"
-  width="42"
-  height="42" 
+  width="300"
+  height="300" 
   style="display: inline-block; margin: 0 auto; vertical-align:middle">
 
 ELAD
