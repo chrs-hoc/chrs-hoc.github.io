@@ -28,8 +28,8 @@ ELAD
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/elad-fdm-s2.jpg"
   alt="ELAD SDR"
-  width="42"
-  height="42" 
+  width="300"
+  height="300" 
   style="display: inline-block; margin: 0 auto; vertical-align:middle">
 
 
@@ -46,8 +46,8 @@ Discone Antenna for HoC
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Antenna.jpg"
   alt="CHRS SDR Antenna"
-  width="42"
-  height="42" 
+  width="300"
+  height="300" 
   style="display: inline-block; margin: 0 auto;vertical-align:middle">
 
 
