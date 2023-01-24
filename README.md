@@ -30,7 +30,7 @@ ELAD
   alt="ELAD SDR"
   width="42"
   height="42" 
-  style="display: inline-block; margin: 0 auto; max-width: 200px">
+  style="display: inline-block; margin: 0 auto; vertical-align:middle">
 
 
 
@@ -48,7 +48,7 @@ Discone Antenna for HoC
   alt="CHRS SDR Antenna"
   width="42"
   height="42" 
-  style="display: inline-block; margin: 0 auto; max-width: 200px">
+  style="display: inline-block; margin: 0 auto;vertical-align:middle">
 
 
 ### Getting Started 
