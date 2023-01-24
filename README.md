@@ -10,14 +10,35 @@
 * Hardware
 
 RSP DUO and ELAD FDM are the two SDR hardware models available at CHRS HoC. 
+
+RSP Duo
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRplay-RSPduo.jpg"
+  alt="RSPDUO SDR"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+ELAD
+
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/elad-fdm-s2.jpg"
+  alt="RSPDUO SDR"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
 * Software
 
 In addition to the OEM software for the above hardware, we also have HDSDR and SDRConsole installed on the SDR Demo PC
 * Antenna
 
-We are using a discone antenna
+Discone Antenna for HoC 
 
-![CHRS SDR Antenna](https://github.com//chrs-hoc/chrs-hoc.github.io/pic/Antenna.jpgraw=true)
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Antenna.jpg"
+  alt="CHRS SDR Antenna"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
 
 * Getting Started 
 
