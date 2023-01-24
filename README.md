@@ -45,7 +45,6 @@ Discone Antenna for HoC
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
-
 ### Getting Started 
 
   - SDR Hardware
