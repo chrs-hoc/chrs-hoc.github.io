@@ -46,7 +46,7 @@ Discone Antenna for HoC
 
 
 
-* Getting Started 
+### Getting Started 
 
   - SDR Hardware
     - RSP DUO
