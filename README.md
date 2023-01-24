@@ -5,6 +5,9 @@
 # California Historic Radio Society
 ## Software Defined Radio @ Winchell Communications Center 
 
+
+
+
 ### SDR Setup
 
 * Hardware
@@ -12,6 +15,7 @@
 RSP DUO and ELAD FDM are the two SDR hardware models available at CHRS HoC. 
 
 RSP Duo
+
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRplay-RSPduo.jpg"
   alt="RSPDUO SDR"
@@ -19,11 +23,13 @@ RSP Duo
 
 ELAD
 
-
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/elad-fdm-s2.jpg"
-  alt="RSPDUO SDR"
+  alt="ELAD SDR"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
+
 
 
 * Software
