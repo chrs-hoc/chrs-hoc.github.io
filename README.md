@@ -19,13 +19,17 @@ RSP Duo
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRplay-RSPduo.jpg"
   alt="RSPDUO SDR"
-  style="display: inline-block; margin: 0 auto; max-width: 200px">
+  width="42"
+  height="42" 
+  style="display: inline-block; margin: 0 auto; vertical-align:middle">
 
 ELAD
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/elad-fdm-s2.jpg"
   alt="ELAD SDR"
+  width="42"
+  height="42" 
   style="display: inline-block; margin: 0 auto; max-width: 200px">
 
 
@@ -42,6 +46,8 @@ Discone Antenna for HoC
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Antenna.jpg"
   alt="CHRS SDR Antenna"
+  width="42"
+  height="42" 
   style="display: inline-block; margin: 0 auto; max-width: 200px">
 
 
