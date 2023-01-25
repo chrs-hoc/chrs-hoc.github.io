@@ -33,9 +33,6 @@ ELAD
   style="display: inline-block; margin: 0 auto; vertical-align:middle">
 
 
-
-
-
 * Software
 
 In addition to the OEM software for the above hardware, we also have HDSDR and SDRConsole installed on the SDR Demo PC
