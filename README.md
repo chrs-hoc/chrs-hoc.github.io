@@ -108,10 +108,30 @@ Automatic Dependent Surveillance-Broadcast (ADS-B)
 Reference resources
 
 
-[Wikipedia](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) 
-[sigidwiki]https://www.sigidwiki.com/wiki/Automatic_Dependent_Surveillance-Broadcast_(ADS-B)
+[Wikipedia](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast)
+
+[sigidwiki](https://www.sigidwiki.com/wiki/Automatic_Dependent_Surveillance-Broadcast_(ADS-B))
+
+[FAA](https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/afx/afs/afs400/afs410/ads-b)
+
+### Instructions for decoding ADS-B at HOC
+This ADS-B Decode is configured for RSPDuo. 
 
 
+Prerequisites
+1. Close all SDR Software (SDR Uno or other frontend UI)
+2. Ensure the antenna is connected to the 2nd Tuner of the RSP
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b-ant.jpeg"
+  alt="ADS-B Antenna connection"
+  width="300"
+  height="300" 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+
+  style="display: inline-block; margin: 0 auto;vertical-align:middle">
 ### Decoding data - audio encoded
 #### Basics 
 Explanation of basic decoding with virtual audio patch
