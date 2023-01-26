@@ -96,9 +96,22 @@ Discone Antenna for HoC
 
 
 * ATC 
+### Decoding data 
+
+* ADS-B
+
+Automatic Dependent Surveillance-Broadcast (ADS-B)
+ is an advanced surveillance technology that combines an aircraft's positioning source, aircraft avionics, and a ground infrastructure to create an accurate surveillance interface between aircraft and ATC.
+
+ ADS-B Out works by broadcasting information about an aircraft's GPS location, altitude, ground speed and other data to ground stations and other aircraft, once per second. Air traffic controllers and properly equipped aircraft can immediately receive this information.
+
+Reference resources
+
+[Wikipedia] (https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast) 
 
 
-### Decoding data (audio encoded)
+
+### Decoding data - audio encoded
 #### Basics 
 Explanation of basic decoding with virtual audio patch
 
