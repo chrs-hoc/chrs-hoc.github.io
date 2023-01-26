@@ -129,8 +129,7 @@ Prerequisites
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
-  style="display: inline-block; margin: 0 auto;vertical-align:middle">
+  width: 150px;>
 ### Decoding data - audio encoded
 #### Basics 
 Explanation of basic decoding with virtual audio patch
