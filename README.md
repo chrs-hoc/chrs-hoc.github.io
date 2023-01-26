@@ -130,7 +130,6 @@ Prerequisites
   border-radius: 4px;
   padding: 5px;
   width: 150px;
-
   style="display: inline-block; margin: 0 auto;vertical-align:middle">
 ### Decoding data - audio encoded
 #### Basics 
