@@ -104,7 +104,7 @@ ExtIO_SDRlay_RSPduo.dll - for RSPDuo
 
 ## SDR Console - Selecting SDR Hardware ##
 
-SDR Console provides the SDR selection during start-up on the GUI
+SDR Console provides the SDR selection during start-up.
 
 [<img
     src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRConsole-select.PNG"
@@ -180,7 +180,7 @@ This is due to the fact that the airspace near CHRS is busy since it's close to 
   width="70%"
   height="70%">
 
-3. Goback to the ADS-B folder on the desktop and start on Virtual Radar.exe
+3. Goback to the ADS-B folder on the desktop and start  Virtual Radar.exe
 It will bring up the virtual Radar UI
 
  <img
