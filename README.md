@@ -51,8 +51,7 @@ Discone Antenna for HoC
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Antenna.jpg"
   alt="CHRS SDR Antenna"
   width="300"
-  height="300" 
-  style="display: inline-block; margin: 0 auto;vertical-align:middle">
+  height="300">
 
 </details>
 
@@ -96,21 +95,21 @@ extio_elad_fdm_6144k_v3_04.dll -  for ELAD
 
 ExtIO_SDRlay_RSPduo.dll - for RSPDuo
 
-[<img
+<img
     src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/HDSDR-Select.PNG"
     alt="HD SDR Selection"
     width="70%"
-    height="70%">](https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/HDSDR-Select.PNG)
+    height="70%">
 
 ## SDR Console - Selecting SDR Hardware ##
 
 SDR Console provides the SDR selection during start-up.
 
-[<img
+<img
     src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRConsole-select.PNG"
     alt="SDR Console Selection"
     width="70%"
-    height="70%">](https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRConsole-select.PNG)
+    height="70%">
 
 Detailed operating manual  for the SDR Software
 
@@ -180,7 +179,7 @@ This is due to the fact that the airspace near CHRS is busy since it's close to 
   width="70%"
   height="70%">
 
-3. Goback to the ADS-B folder on the desktop and start  Virtual Radar.exe
+3. Return to the ADS-B folder on the desktop and start  Virtual Radar.exe
 It will bring up the virtual Radar UI
 
  <img
@@ -189,7 +188,7 @@ It will bring up the virtual Radar UI
   width="70%"
   height="70%">
 
-4. Click on the blue hyperlink on the Virtual Radar UI (http://127.0.0.1:8001/VirtualRadar)
+4. Click on the blue hyperlink on the Virtual Radar UI (http://127.0.0.1:8081/VirtualRadar)
 
 That will bring up the webpage with the ADS-B data plotted the map
 
