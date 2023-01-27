@@ -82,7 +82,7 @@ Checklist
 * Verify proper antenna connection to the SDR, as it may vary depending on the band/decoder in use
 
 
-Easiest option is to type in the SDR software name in the search box next to the Windows start button and select the software of your choice.
+To start the SDR software, type in the SDR software name in the search box next to the Windows start button, then select and start.
 ## SDR Uno/FDM SW2 - Selecting SDR Hardware ##
 For SDR Uno and ELAD FDM, they default to their respective OEM hardware.
 
