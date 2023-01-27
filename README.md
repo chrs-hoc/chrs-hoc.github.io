@@ -179,8 +179,7 @@ This is due to the fact that the airspace near CHRS is busy since it's close to 
   width="70%"
   height="70%">
 
-3. Return to the ADS-B folder on the desktop and start  Virtual Radar.exe
-It will bring up the virtual Radar UI
+3. Return to the ADS-B folder on the desktop and start  Virtual Radar.exe which will bring up the Virtual Radar UI
 
  <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-2.PNG"
