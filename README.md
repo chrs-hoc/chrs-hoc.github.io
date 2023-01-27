@@ -61,7 +61,7 @@ Discone Antenna for HoC
 
 <summary> Getting Started </summary>
 
-The hardware and software combinations listed below are tested in the HoC setup.
+The hardware and software combinations listed below are tested at the HoC setup.
 
 | Hardware      | SDR Software     | Comments      |
 | :---          |    :----:        |          ---: |
