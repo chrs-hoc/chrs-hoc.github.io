@@ -6,7 +6,9 @@
 ## Software Defined Radio @ Winchell Communications Center ##
 
 Setup/operating instructions for the SDR demo @ CHRS HoC
+
 <details>
+
   <summary>SDR Hardware</summary>
 
   ## Hardware ##
@@ -21,6 +23,7 @@ Setup/operating instructions for the SDR demo @ CHRS HoC
     width="300"
     height="300" 
     style="display: inline-block; margin: 0 auto; vertical-align:middle">
+
 
   ELAD
 
