@@ -11,7 +11,7 @@ Setup/operating instructions for the SDR demo @ CHRS HoC
 
   <summary>SDR Hardware</summary>
 
-  ## Hardware
+  ## Hardware ###
 
   RSP DUO and ELAD FDM are the two SDR hardware models available at CHRS HoC. 
 
@@ -21,8 +21,7 @@ Setup/operating instructions for the SDR demo @ CHRS HoC
     src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRplay-RSPduo.jpg"
     alt="RSPDUO SDR"
     width="300"
-    height="300" 
-    style="display: inline-block; margin: 0 auto; vertical-align:middle">
+    height="300">
 
 
   ELAD
@@ -31,8 +30,7 @@ Setup/operating instructions for the SDR demo @ CHRS HoC
     src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/elad-fdm-s2.jpg"
     alt="ELAD SDR"
     width="300"
-    height="300" 
-    style="display: inline-block; margin: 0 auto; vertical-align:middle">
+    height="300">
 
 </details>
 
