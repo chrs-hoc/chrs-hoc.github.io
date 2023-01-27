@@ -34,9 +34,11 @@ Setup/operating instructions for the SDR demo @ CHRS HoC
 </details>
 
 <details>
+
 <summary>SDR Software</summary> 
 
-  In addition to the OEM software - SDR Uno and FDM SW2 - for the above hardware, we also have [HDSDR](https://www.hdsdr.de/) and [SDRConsole](https://www.sdr-radio.com/console) installed on the SDR Demo PC
+On the SDR Demo PC, in addition to the OEM software for the aforementioned devices, we also have [HDSDR](https://www.hdsdr.de/) and [SDRConsole](https://www.sdr-radio.com/console) installed.
+
 </details>
 
 <details>
@@ -58,8 +60,8 @@ Discone Antenna for HoC
 
 
 <summary> Getting Started </summary>
-HoC setup is configured to oprate in the below hardware/software combinations.
 
+The hardware and software combinations listed below are tested in the HoC setup.
 
 | Hardware      | SDR Software     | Comments      |
 | :---          |    :----:        |          ---: |
@@ -80,8 +82,7 @@ Checklist
 * Verify proper antenna connection to the SDR, as it may vary depending on the band/decoder in use
 
 
-Easiest option is to type in the SDR software name on the search box next to the Windows start button and select the software of your choice.
-
+Easiest option is to type in the SDR software name in the search box next to the Windows start button and select the software of your choice.
 ## SDR Uno/FDM SW2 - Selecting SDR Hardware ##
 For SDR Uno and ELAD FDM, they default to their respective OEM hardware.
 
@@ -110,13 +111,99 @@ SDR Console provides the SDR selection during start-up on the GUI
     width="70%"
     height="70%">](https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/SDRConsole-select.PNG)
 
+Detailed operating manual  for the SDR Software
+
+[SDR Uno](https://www.sdrplay.com/docs/SDRplay_SDRuno_User_Manual.pdf)
+
+[FDM-SW2](https://amd.co.at/anti/afu/FDM_DUO/Manuals/Sw2_user_manual_rev1.01draft.pdf)
+
+[HDSDR](https://www.hdsdr.de/faq.html)
+
+[SDR Console](https://www.sp2put.pl/wp-content/uploads/2017/07/SDR-Console-V2.pdf)
+
+</details>
+
+<details>
+
+<summary> Decoding ADS-B </summary>
+
+### ADS-B ###
+
+Automatic Dependent Surveillance-Broadcast (ADS-B)
+ is an advanced surveillance technology that combines an aircraft's positioning source, aircraft avionics, and a ground infrastructure to create an accurate surveillance interface between aircraft and ATC.
+
+ ADS-B Out works by broadcasting information about an aircraft's GPS location, altitude, ground speed and other data to ground stations and other aircraft, once per second. Air traffic controllers and properly equipped aircraft can immediately receive this information.
+
+Reference resources
 
 
-Detailed operating instructions for the SDR Software
+[Wikipedia](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast)
 
+[sigidwiki](https://www.sigidwiki.com/wiki/Automatic_Dependent_Surveillance-Broadcast_(ADS-B))
+
+[FAA](https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/afx/afs/afs400/afs410/ads-b)
+
+
+## Instructions for decoding ADS-B at HOC ##
+
+ADS-B Decode is configured for RSPDuo. 
+
+Prerequisites
+1. Close all SDR Software (SDR Uno or other frontend UI).
+2. Ensure the antenna is connected to the 2nd Tuner of the RSP.
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b-ant.jpeg"
+  alt="ADS-B Antenna connection"
+  width="70%"
+  height="70%">
+
+## Procedure ##
+
+1. Open the ADS-B folder on the desktop
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADS-B.PNG"
+  alt="ADS-B Antenna connection"
+  width="70%"
+  height="70%">
+
+2. Doubleclick and run the "start8I" shortcut
+
+In a couple of seconds this will bring up a command prompt with the decoded ADS-B Data.
+This is due to the fact that the airspace near CHRS is busy since it's close to SFO.
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-1.PNG"
+  alt="ADS-B decode"
+  width="70%"
+  height="70%">
+
+3. Goback to the ADS-B folder on the desktop and start on Virtual Radar.exe
+It will bring up the virtual Radar UI
+
+ <img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-2.PNG"
+  alt="Virtual Radar"
+  width="70%"
+  height="70%">
+
+4. Click on the blue hyperlink on the Virtual Radar UI (http://127.0.0.1:8001/VirtualRadar)
+
+That will bring up the webpage with the ADS-B data plotted the map
+
+ <img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-3.PNG"
+  alt="Virtual Radar"
+  width="70%"
+  height="70%">
 
 
 </details>
+
+
+<details>
+<summary>Pending</summary>
 
 ### SDR Play specific plug-ins 
 * FRAN 
@@ -141,82 +228,6 @@ Detailed operating instructions for the SDR Software
 
 
 * ATC 
-## Decoding data 
-
-### ADS-B
-
-Automatic Dependent Surveillance-Broadcast (ADS-B)
- is an advanced surveillance technology that combines an aircraft's positioning source, aircraft avionics, and a ground infrastructure to create an accurate surveillance interface between aircraft and ATC.
-
- ADS-B Out works by broadcasting information about an aircraft's GPS location, altitude, ground speed and other data to ground stations and other aircraft, once per second. Air traffic controllers and properly equipped aircraft can immediately receive this information.
-
-Reference resources
-
-
-[Wikipedia](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast)
-
-[sigidwiki](https://www.sigidwiki.com/wiki/Automatic_Dependent_Surveillance-Broadcast_(ADS-B))
-
-[FAA](https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/afx/afs/afs400/afs410/ads-b)
-
-
-
-Instructions for decoding ADS-B at HOC
-ADS-B Decode is configured for RSPDuo. 
-
-Prerequisites
-1. Close all SDR Software (SDR Uno or other frontend UI)
-2. Ensure the antenna is connected to the 2nd Tuner of the RSP
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b-ant.jpeg"
-  alt="ADS-B Antenna connection"
-  width="300"
-  height="300" 
-  style="display: inline-block; margin: 0 auto;vertical-align:middle">
-
-
-### Steps to receive ADS-B
-
-1. Click on the ADS-B folder on the desktop
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADS-B.PNG"
-  alt="ADS-B Antenna connection"
-  width="800"
-  height="400" 
-  style="display: inline-block; margin: 0 auto;vertical-align:middle">
-
-2. Doubleclick and start 8I shortcut
-
-You should see a command prompt with the decoded ADS-B Data
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-1.PNG"
-  alt="ADS-B decode"
-  width="800"
-  height="400" 
-  style="display: inline-block; margin: 0 auto;vertical-align:middle">
-
- 3. Goback to the ADS-B folder on the desktop and click on Virtual Radar
- It will bring up the virtual Radar UI
- <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-2.PNG"
-  alt="Virtual Radar"
-  width="800"
-  height="400" 
-  style="display: inline-block; margin: 0 auto;vertical-align:middle">
-
-  4. Click on the blue hyperlink on the Virtual Radar UI (http://127.0.0.1:8001/VirtualRadar)
-
-It will bring up the webpage with the ADS-B Data plotted the map
-
- <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-3.PNG"
-  alt="Virtual Radar"
-  width="800"
-  height="400" 
-  style="display: inline-block; margin: 0 auto;vertical-align:middle">
 
 ### Decoding data - audio encoded
 #### Basics 
@@ -244,3 +255,4 @@ Explanation of basic decoding with virtual audio patch
 * Trunked Radio/Digital Audio
 
 * ATCS (TBD) 
+</details>
