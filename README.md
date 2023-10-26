@@ -228,7 +228,7 @@ Prerequisites
 1. Open the SDR-Trunk folder on the desktop
 
 <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk.png"
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-folder.png"
   alt="SDR Trunk folder"
   width="70%"
   height="70%">
