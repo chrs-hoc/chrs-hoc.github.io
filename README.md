@@ -7,6 +7,8 @@
 
 Setup/operating instructions for the Software Defined Radio @ CHRS HoC
 
+Click on the heading to expand each topic
+
 <details>
 
   <summary>SDR Hardware</summary>
@@ -331,14 +333,53 @@ Prerequisites/notes
   width="70%"
   height="70%">
 
-
-
-
-
 </details>
 
 <details>
 
+<summary> Weatherfax</summary>
+
+Radiofax, also known as HF FAX, radiofacsimile or weatherfax, is a means of broadcasting graphic weather maps and other graphic images via HF radio
+
+[Wikipedia](https://en.wikipedia.org/wiki/Radiofax#Weatherfax)
+
+[NOAA Weatherfax schedule](https://www.weather.gov/media/marine/rfax.pdf)
+
+[Sigidwiki](https://www.sigidwiki.com/wiki/WEFAX)
+
+
+### Example station
+
+U.S. Coast Guard Communications Station NMC - Point Reyes, CA 
+
+Assigned frequencies 4346, 8682, 12786, 17151.2, 22527 kHz
+
+Select a carrier frequency 1.9 kHz below those listed when using a
+single sideband radio in the USB mode to receive these broadcasts.
+
+## Procedure 
+
+1. Tune to the weatherfax station on the SDR (remember to select a carrier frequency 1.9 kHz below the listed)
+2. Route audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+3. Open multipsk by typing 'Multipsk' on the windows search bar
+4. Click on the RX/TX button 
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Weather-Fax/start1.png"
+  alt="MultiPSK"
+  width="70%"
+  height="70%">
+
+5. Click on the FAX button to start decoding weather fax
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Weather-Fax/weather-fax.png"
+  alt="MultiPSK"
+  width="70%"
+  height="70%">
+
+</details>
+
+
+<details>
 
 <summary>Pending</summary>
 
