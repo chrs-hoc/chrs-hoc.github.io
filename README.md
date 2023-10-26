@@ -360,18 +360,18 @@ single sideband radio in the USB mode to receive these broadcasts.
 ## Procedure 
 
 1. Tune to the weatherfax station on the SDR (remember to select a carrier frequency 1.9 kHz below the listed)
-2. Route audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
 3. Open multipsk by typing 'Multipsk' on the windows search bar
 4. Click on the RX/TX button 
 <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Weather-Fax/start1.png"
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/start1.png"
   alt="MultiPSK"
   width="70%"
   height="70%">
 
 5. Click on the FAX button to start decoding weather fax
 <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/Weather-Fax/weather-fax.png"
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/weather-fax.png"
   alt="MultiPSK"
   width="70%"
   height="70%">
@@ -400,7 +400,7 @@ Explanation of basic decoding with virtual audio patch
 
 * AIS 
 
-* Weather Fax
+
 
 * ISM/ Utility meter Standard Consumption Message (SCM) 
 
