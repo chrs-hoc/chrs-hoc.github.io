@@ -484,7 +484,7 @@ FT8 is a popular form of digital weak signal communication used primarily by ama
 3. Open WSJT-X decoder by typing 'WSJT-X' in the windows search box
 4. In WSJT-X, select the mode to FT8, band to 80m and observe the decode
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/FT8/FT8.png?raw=true)
-
+**Figure 1:** sdrtrunk Application Screenshot
 
 </details>
 
