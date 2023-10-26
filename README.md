@@ -232,7 +232,7 @@ Prerequisites
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-folder.png"
-  alt="SDR Trunk folder"
+  alt="SDR Trunk "
   width="70%"
   height="70%">
 
@@ -240,7 +240,7 @@ Prerequisites
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-open.png"
-  alt="SDR Trunk folder"
+  alt="SDR Trunk "
   width="70%"
   height="70%">
 
@@ -248,7 +248,7 @@ Prerequisites
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-start.png"
-  alt="SDR Trunk folder"
+  alt="SDR Trunk "
   width="70%"
   height="70%">
 
@@ -256,7 +256,7 @@ Prerequisites
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-running.png"
-  alt="SDR Trunk folder"
+  alt="SDR Trunk "
   width="70%"
   height="70%">
   
@@ -271,22 +271,69 @@ Prerequisites
 
 Several data transmissions are encoded as audio tones which can be decoded using special software.
 In order to accomplish this, we must link the SDR software's audio output to the corresponding decoder software's input. A physical loopback audio cable and two sound cards can be used for this, or you can use specialized software to establish a software audio loopback cable. This will accept the SDR software's audio output and feed it as audio input to any application. In our case, the virtual audio loopback cable or software is being used. To route the SDR software's audio output to the virtual patch connection, follow the steps listed below. 
-Decoders will be covered in their respective sections
+Decoders will be covered in their respective sections.
 
 
 [Audio Loopback](https://www.dxzone.com/5-free-virtual-audio-cable-software/)
 
-## Instructions for Audio Routing HOC 
+## Instructions for Audio Routing 
 You can use any SDR Software/Hardware to receive the signal (tune) and route the audio to the decoder software
 The following lists the procedure for all the SDR software installed on the HOC environment
 
 Prerequisites/notes
 1. Default audio out is to the speakers. Routing audio to the virtual cable will disable the speaker output
+2. To restore the audio to speakers, follow the same procedure and select "Speakers/Headphones - Realteak" as the output device
 
 ## Routing audio from SDR Uno 
+
+1. From SDR Uno Rx control window, click settings
+2. In the RX Settings 0-0  window, select "OUT" tab
+3. Select "CABLE Input (VB-Audio)" from the dropdown 
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/sdr-Uno.png"
+  alt="Audio Routing"
+  width="70%"
+  height="70%">
+
 ## Routing audio from ELAD
+
+1. Click on the settings button next to the power button icon
+2. Select "Audio" tab
+3. Select "CABLE Input (VB-Audio)" from the dropdown 
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/elad.png"
+  alt="Audio Routing"
+  width="70%"
+  height="70%">
+
 ## Routing audio from HD-SDR
+
+1. Click on the Sound card \[F5] button 
+2. Select "CABLE Input (VB-Audio)" from the Sound card selection window 
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/hd-sdr.png"
+  alt="Audio Routing"
+  width="70%"
+  height="70%">
+
+
 ## Routing audio from SDR Console
+
+1. Click on the Speaker/Headphones 
+2. Select "CABLE Input (VB-Audio)" from the dropdown list
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/sdr-console.png"
+  alt="Audio Routing"
+  width="70%"
+  height="70%">
+
+
+
+
 
 </details>
 
@@ -294,30 +341,6 @@ Prerequisites/notes
 
 
 <summary>Pending</summary>
-
-### SDR Play specific plug-ins 
-* FRAN 
-
-
-### Receving audio signals
-
-* AM Broadcast
-
-  - Using RSP DUO
-  - Using ELAD
-
-* FM Broadcast
-
-
-* Weather broadcast 
-
-* SSB 
-
-
-* WWV
-
-
-* ATC 
 
 ### Decoding data - audio encoded
 #### Basics 
@@ -332,8 +355,6 @@ Explanation of basic decoding with virtual audio patch
 
 * ACARS
 
-* ADS-B
-
 * APRS 
 
 * AIS 
@@ -342,9 +363,6 @@ Explanation of basic decoding with virtual audio patch
 
 * ISM/ Utility meter Standard Consumption Message (SCM) 
 
-* Trunked Radio/Digital Audio
-
-* ATCS (TBD) 
 </details>
 
 
