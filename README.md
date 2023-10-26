@@ -11,7 +11,7 @@ Setup/operating instructions for the Software Defined Radio @ CHRS HoC
 
   <summary>SDR Hardware</summary>
 
-  ## Hardware ###
+  ## Hardware 
 
   RSP DUO and ELAD FDM are the two SDR hardware models available at CHRS HoC. 
   
@@ -75,17 +75,17 @@ The hardware and software combinations listed below are tested at the HoC setup.
 
 Unlike the respective OEM software, both HD SDR and SDR Console is configured to work with ELAD **and** RSPDuo.
 
-## Starting the SDR ##
+## Starting the SDR 
 
 Checklist 
 * Ensure both SDRs are powered up via the USB to the host PC
 * Verify proper antenna connection to the SDR
 
 To start the SDR software, type in the SDR software name in the search box next to the Windows start button, then select and start.
-## SDR Uno/FDM SW2 - Selecting SDR Hardware ##
+## SDR Uno/FDM SW2 - Selecting SDR Hardware 
 For SDR Uno and ELAD FDM, they default to their respective OEM hardware.
 
-## HD SDR - Selecting SDR Hardware ##
+## HD SDR - Selecting SDR Hardware 
 For HDSDR, the software will prompt you during start-up  to choose the respective EXT_IO DLL to select SDR Hardware
 
 Select:
@@ -100,7 +100,7 @@ ExtIO_SDRlay_RSPduo.dll - for RSPDuo
     width="70%"
     height="70%">
 
-## SDR Console - Selecting SDR Hardware ##
+## SDR Console - Selecting SDR Hardware 
 
 SDR Console provides the SDR selection during start-up.
 
@@ -131,9 +131,10 @@ Detailed operating manuals
 
 </details>
 <details>
+
 <summary> ADS-B </summary>
 
-### ADS-B ###
+### ADS-B 
 
 Automatic Dependent Surveillance-Broadcast (ADS-B)
  is an advanced surveillance technology that combines an aircraft's positioning source, aircraft avionics, and a ground infrastructure to create an accurate surveillance interface between aircraft and ATC.
@@ -150,14 +151,14 @@ Reference resources
 [FAA](https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/afx/afs/afs400/afs410/ads-b)
 
 
-## Instructions for decoding ADS-B at HOC ##
+## Instructions for decoding ADS-B at HOC
 
 ADS-B Decode is configured for RSPDuo. 
 
 Prerequisites
 1. Close all SDR Software (SDR Uno or other frontend UI).
 
-## Procedure ##
+## Procedure 
 
 1. Open the ADS-B folder on the desktop
 
@@ -210,6 +211,8 @@ A trunked radio system is a two-way radio system that uses a control channel to 
 
 [Wikipedia - Trunked Radio](https://en.wikipedia.org/wiki/Trunked_radio_system)
 
+[Sigidwiki](https://www.sigidwiki.com/wiki/Category:Trunked_Radio)
+
 [WIkipedia - PL-25](https://en.wikipedia.org/wiki/Trunked_radio_system)
 
 [Radio Reference wiki](https://wiki.radioreference.com/index.php/Trunked_Radio_Systems)
@@ -218,12 +221,12 @@ A trunked radio system is a two-way radio system that uses a control channel to 
 
 
 
-## Instructions for receiving trunked radio at HOC ##
+## Instructions for receiving trunked radio at HOC 
 
 Prerequisites
 1. Close all SDR Software (SDR Uno or other frontend UI).
 
-## Procedure ##
+## Procedure 
 
 1. Open SDR-Trunk folder on the desktop
 
@@ -256,10 +259,36 @@ Prerequisites
   alt="SDR Trunk folder"
   width="70%"
   height="70%">
-
+  
+  Note : Close SDR Trunk  before running other SDR applications. 
 </details>
 
 
+
+
+<details>
+<summary> Audio Routing</summary>
+
+Several data transmissions are encoded as audio tones which can be decoded using special software.
+In order to accomplish this, we must link the SDR software's audio output to the corresponding decoder software's input. A physical loopback audio cable and two sound cards can be used for this, or you can use specialized software to establish a software audio loopback cable. This will accept the SDR software's audio output and feed it as audio input to any application. In our case, the virtual audio loopback cable or software is being used. To route the SDR software's audio output to the virtual patch connection, follow the steps listed below. 
+Decoders will be covered in their respective sections
+
+
+[Audio Loopback](https://www.dxzone.com/5-free-virtual-audio-cable-software/)
+
+## Instructions for Audio Routing HOC 
+You can use any SDR Software/Hardware to receive the signal (tune) and route the audio to the decoder software
+The following lists the procedure for all the SDR software installed on the HOC environment
+
+Prerequisites/notes
+1. Default audio out is to the speakers. Routing audio to the virtual cable will disable the speaker output
+
+## Routing audio from SDR Uno 
+## Routing audio from ELAD
+## Routing audio from HD-SDR
+## Routing audio from SDR Console
+
+</details>
 
 <details>
 
@@ -317,3 +346,5 @@ Explanation of basic decoding with virtual audio patch
 
 * ATCS (TBD) 
 </details>
+
+
