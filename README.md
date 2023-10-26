@@ -79,8 +79,7 @@ Unlike the respective OEM software, both HD SDR and SDR Console is configured to
 
 Checklist 
 * Ensure both SDRs are powered up via the USB to the host PC
-* Verify proper antenna connection to the SDR, as it may vary depending on the band/decoder in use
-
+* Verify proper antenna connection to the SDR
 
 To start the SDR software, type in the SDR software name in the search box next to the Windows start button, then select and start.
 ## SDR Uno/FDM SW2 - Selecting SDR Hardware ##
@@ -111,7 +110,16 @@ SDR Console provides the SDR selection during start-up.
     width="70%"
     height="70%">
 
-Detailed operating manual  for the SDR Software
+
+
+</details>
+<details>
+
+<summary>Receiving AM/FM/SSB/NFM</summary>
+
+Decoding AM/FM/SSB/NFM is not covered here, please reference to respective product documentation for the same.
+
+Detailed operating manuals
 
 [SDR Uno](https://www.sdrplay.com/docs/SDRplay_SDRuno_User_Manual.pdf)
 
@@ -122,10 +130,8 @@ Detailed operating manual  for the SDR Software
 [SDR Console](https://www.sp2put.pl/wp-content/uploads/2017/07/SDR-Console-V2.pdf)
 
 </details>
-
 <details>
-
-<summary> Decoding ADS-B </summary>
+<summary> ADS-B </summary>
 
 ### ADS-B ###
 
@@ -139,7 +145,7 @@ Reference resources
 
 [Wikipedia](https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast)
 
-[sigidwiki](https://www.sigidwiki.com/wiki/Automatic_Dependent_Surveillance-Broadcast_(ADS-B))
+[Sigidwiki](https://www.sigidwiki.com/wiki/Automatic_Dependent_Surveillance-Broadcast_(ADS-B))
 
 [FAA](https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/afx/afs/afs400/afs410/ads-b)
 
@@ -150,20 +156,13 @@ ADS-B Decode is configured for RSPDuo.
 
 Prerequisites
 1. Close all SDR Software (SDR Uno or other frontend UI).
-2. Ensure the antenna is connected to the 2nd Tuner of the RSP.
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b-ant.jpeg"
-  alt="ADS-B Antenna connection"
-  width="70%"
-  height="70%">
 
 ## Procedure ##
 
 1. Open the ADS-B folder on the desktop
 
 <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADS-B.PNG"
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b/ADS-B.PNG"
   alt="ADS-B Antenna connection"
   width="70%"
   height="70%">
@@ -171,10 +170,10 @@ Prerequisites
 2. Doubleclick and run the "start8I" shortcut
 
 In a couple of seconds this will bring up a command prompt with the decoded ADS-B Data.
-This is due to the fact that the airspace near CHRS is busy since it's close to SFO.
+Since we are close to SFO, it should list several Aircrafts within seconds of starting up.
 
 <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-1.PNG"
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b/ADSB-1.PNG"
   alt="ADS-B decode"
   width="70%"
   height="70%">
@@ -182,7 +181,7 @@ This is due to the fact that the airspace near CHRS is busy since it's close to 
 3. Return to the ADS-B folder on the desktop and start  Virtual Radar.exe which will bring up the Virtual Radar UI
 
  <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-2.PNG"
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b/ADSB-2.PNG"
   alt="Virtual Radar"
   width="70%"
   height="70%">
@@ -192,16 +191,45 @@ This is due to the fact that the airspace near CHRS is busy since it's close to 
 That will bring up the webpage with the ADS-B data plotted the map
 
  <img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ADSB-3.PNG"
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ads-b/ADSB-3.PNG"
   alt="Virtual Radar"
   width="70%"
   height="70%">
 
+5. Click on any aircraft to find the details about it.
+
+Note : Close the ADS-B Decoder and command prompt before running other SDR applications. 
+Press Control+C on the command prompt to close it. After Control+C Type "Yes" to "Terminate the batch job" prompt on the command window
 
 </details>
 
+<details>
+<summary> Trunked Radio Systems</summary>
+
+A trunked radio system is a two-way radio system that uses a control channel to automatically assign frequency channels to groups of user radios.
+
+[Wikipedia - Trunked Radio](https://en.wikipedia.org/wiki/Trunked_radio_system)
+
+[WIkipedia - PL-25](https://en.wikipedia.org/wiki/Trunked_radio_system)
+
+[Radio Reference wiki](https://wiki.radioreference.com/index.php/Trunked_Radio_Systems)
+
+[Alameda country Trunked Radio systems](https://www.radioreference.com/db/browse/ctid/183/trs)
+
+
+
+## Instructions for receiving trunked radio at HOC ##
+
+Prerequisites
+1. Close all SDR Software (SDR Uno or other frontend UI).
+2. Open the 
+</details>
+
+
 
 <details>
+
+
 <summary>Pending</summary>
 
 ### SDR Play specific plug-ins 
