@@ -7,7 +7,7 @@
 
 Setup/operating instructions for the Software Defined Radio @ CHRS HoC
 
-Click on the heading to expand each topic
+Click the heading for the details
 
 <details>
 
@@ -189,7 +189,7 @@ Since we are close to SFO, it should list several Aircrafts within seconds of st
   width="70%"
   height="70%">
 
-4. Click on the blue hyperlink on the Virtual Radar UI (http://127.0.0.1:8081/VirtualRadar)
+4. Click the blue hyperlink on the Virtual Radar UI (http://127.0.0.1:8081/VirtualRadar)
 
 That will bring up the webpage with the ADS-B data plotted the map
 
@@ -300,7 +300,7 @@ Prerequisites/notes
 
 ## Routing audio from ELAD
 
-1. Click on the settings button next to the power button icon
+1. Click  the settings button next to the power button icon
 2. Select "Audio" tab
 3. Select "CABLE Input (VB-Audio)" from the dropdown 
 
@@ -312,7 +312,7 @@ Prerequisites/notes
 
 ## Routing audio from HD-SDR
 
-1. Click on the Sound card \[F5] button 
+1. Click  the Sound card \[F5] button 
 2. Select "CABLE Input (VB-Audio)" from the Sound card selection window 
 
 <img
@@ -324,7 +324,7 @@ Prerequisites/notes
 
 ## Routing audio from SDR Console
 
-1. Click on the Speaker/Headphones 
+1. Click the Speaker/Headphones 
 2. Select "CABLE Input (VB-Audio)" from the dropdown list
 
 <img
@@ -347,6 +347,7 @@ Radiofax, also known as HF FAX, radiofacsimile or weatherfax, is a means of broa
 
 [Sigidwiki](https://www.sigidwiki.com/wiki/WEFAX)
 
+[MultiPSK Documentation] (http://f6cte.free.fr/index_anglais.htm)
 
 ### Frequency (nearest)
 
@@ -361,8 +362,8 @@ single sideband radio in the USB mode to receive these broadcasts.
 
 1. Tune to the weatherfax station on the SDR, USB (remember to select a carrier frequency 1.9 kHz below the listed)
 2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
-3. Open multipsk by typing 'Multipsk' on the windows search bar
-4. Click on the RX/TX button 
+3. Open multipsk by typing 'Multipsk' in the windows search box
+4. Click the RX/TX button 
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/start1.png"
@@ -370,7 +371,7 @@ single sideband radio in the USB mode to receive these broadcasts.
   width="70%"
   height="70%">
 
-5. Click on the FAX button to start decoding weather fax
+5. Click the FAX button to start decoding weather fax
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/weather-fax.png"
@@ -392,40 +393,76 @@ Amateur Packet Reporting System (APRS) is a digital communication system utilize
 
 [Sigidwiki](https://www.sigidwiki.com/wiki/Automatic_Packet_Reporting_System_(APRS))
 
+[MultiPSK Documentation](http://f6cte.free.fr/index_anglais.htm)
+
 
 ### Frequency
 144.390MHz, NFM
+For other frequencies, refer to the Sigidwiki link above
 
 ## Procedure 
 
 1. Tune to 144.390MHz, NFM on the SDR
 2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
-3. Open multipsk by typing 'Multipsk' on the windows search bar
-4. Click on the RX/TX button 
+3. Open multipsk by typing 'Multipsk' in the windows search box
+4. Click the RX/TX button 
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/start1.png"
   alt="MultiPSK"
-  width="70%"
-  height="70%">
+  width="auto"
+  height="auto">
 
-5. Click on the PACKET+APRS Button to start the decode. 
+5. Click the PACKET+APRS Button to start the decode. 
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/APRS/MPSK-start-APRS-Text.png"
   alt="MultiPSK"
-  width="70%"
-  height="70%">
+  width="auto"
+  height="auto">
 
-6. Click on the APRS button to show the Map
+6. Click the APRS button to show the Map/location information
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/APRS/MPSK-start-APRS-Map.png"
   alt="MultiPSK"
-  width="70%"
-  height="70%">
+  width="auto"
+  height="auto">
 
 </details>
+
+<details>
+<summary>ACARS -  Aircraft Communication Addressing and Reporting System </summary>
+
+ACARS is a digital data link system for the transmission of messages between aircraft and ground stations
+
+[Wikipedia](https://en.wikipedia.org/wiki/ACARS)
+
+[Sigidwiki](https://www.sigidwiki.com/wiki/Aircraft_Communications_Addressing_and_Reporting_System_\(ACARS\))
+
+[ACARS - What/How](https://www.aviationmatters.co/what-is-acars/)
+
+[ACARS - Message example](https://www.flightkeeper.net/SampleACARS.html)
+
+### Frequency
+129.125 MHz, AM
+For other frequencies, refer to the Sigidwiki link above
+
+## Procedure 
+
+1. Tune to 129.12MHz, AM on the SDR
+2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+3. Open ACARS decoder by typing 'Black Cat ACARS' in the windows search box
+4. Black Cat ACARS interface now will start displaying the received ACARS messages
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ACARS/ACARS-Decode.png"
+  alt="MultiPSK"
+  width="auto"
+  height="auto">
+
+</details>
+
 <details>
 
 <summary>Pending</summary>
