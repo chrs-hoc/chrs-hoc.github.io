@@ -1,7 +1,3 @@
-```diff
-- draft for preview only,  work in progress
-```
-
 # California Historic Radio Society #
 ## Software Defined Radio @ Winchell Communications Center ##
 
@@ -232,37 +228,22 @@ Prerequisites
 
 1. Open SDR-Trunk folder on the desktop
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-folder.png"
-  alt="SDR Trunk "
-  width="70%"
-  height="70%">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/trunked-radio/sdr-trunk-folder.png?raw=true)
 
 2. Right click and open the SDR trunk Shortcut 
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-open.png"
-  alt="SDR Trunk "
-  width="70%"
-  height="70%">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/trunked-radio/sdr-trunk-open.png?raw=true)
 
 3. On "Auto start channels" window, click "Start now"
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-start.png"
-  alt="SDR Trunk "
-  width="70%"
-  height="70%">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/trunked-radio/sdr-trunk-start.pngraw=true)
 
 4. Give it a couple of seconds to initialize and connect to the trunk control channel
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-running.png"
-  alt="SDR Trunk "
-  width="70%"
-  height="70%">
-  
-  Note : Close SDR Trunk  before running other SDR applications. 
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/trunked-radio/sdr-trunk-running.png?raw=true)
+
+Note : Close SDR Trunk  before running other SDR applications. 
+
 </details>
 
 
@@ -292,11 +273,7 @@ Prerequisites/notes
 2. In the RX Settings 0-0  window, select "OUT" tab
 3. Select "CABLE Input (VB-Audio)" from the dropdown 
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/sdr-Uno.png"
-  alt="Audio Routing"
-  width="70%"
-  height="70%">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/audio-route/sdr-Uno.png?raw=true)
 
 ## Routing audio from ELAD
 
@@ -304,35 +281,21 @@ Prerequisites/notes
 2. Select "Audio" tab
 3. Select "CABLE Input (VB-Audio)" from the dropdown 
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/elad.png"
-  alt="Audio Routing"
-  width="70%"
-  height="70%">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/audio-route/elad.png?raw=true)
 
 ## Routing audio from HD-SDR
 
 1. Click  the Sound card \[F5] button 
 2. Select "CABLE Input (VB-Audio)" from the Sound card selection window 
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/hd-sdr.png"
-  alt="Audio Routing"
-  width="70%"
-  height="70%">
-
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/audio-route/hd-sdr.png?raw=true)
 
 ## Routing audio from SDR Console
 
 1. Click the Speaker/Headphones 
 2. Select "CABLE Input (VB-Audio)" from the dropdown list
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/audio-route/sdr-console.png"
-  alt="Audio Routing"
-  width="70%"
-  height="70%">
-
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/audio-route/sdr-console.png?raw=true)
 </details>
 
 <details>
@@ -365,19 +328,11 @@ single sideband radio in the USB mode to receive these broadcasts.
 3. Open multipsk by typing 'Multipsk' in the windows search box
 4. Click the RX/TX button 
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/start1.png"
-  alt="MultiPSK"
-  width="70%"
-  height="70%">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/WeatherFax/start1.png?raw=true)
 
 5. Click the FAX button to start decoding weather fax
 
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/weather-fax.png"
-  alt="Weatherfax"
-  width="auto"
-  height="auto">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/WeatherFax/weather-fax.png?raw=true)
 
 </details>
 
@@ -406,12 +361,15 @@ For other frequencies, refer to the Sigidwiki link above
 2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open multipsk by typing 'Multipsk' in the windows search box
 4. Click the RX/TX button 
+
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/WeatherFax/start1.png?raw=true)
 
-5. Click the PACKET+APRS Button to start the decode. 
+5. Click the PACKET+APRS Button to start the decode
+
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/APRS/MPSK-start-APRS-Text.png?raw=true)
 
 6. Click the APRS button to show the Map/location information
+
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/APRS/MPSK-start-APRS-Map.png?raw=true)
 </details>
 
@@ -438,6 +396,7 @@ For other frequencies, refer to the Sigidwiki link above
 2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open ACARS decoder by typing 'Black Cat ACARS' in the windows search box
 4. Black Cat ACARS interface now will start displaying the received ACARS messages
+
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/ACARS/ACARS-Decode.png?raw=true)
 ACARS Decode using Black Cat ACARS
 
@@ -463,6 +422,7 @@ FT8 is a popular form of digital weak signal communication used primarily by ama
 2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open WSJT-X decoder by typing 'WSJT-X' in the windows search box
 4. In WSJT-X, select the mode to FT8, band to 80m and observe the decode
+
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/FT8/FT8.png?raw=true)
  FT8 Decode
 
