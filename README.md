@@ -361,7 +361,7 @@ single sideband radio in the USB mode to receive these broadcasts.
 ## Procedure 
 
 1. Tune to the weatherfax station on the SDR, USB (remember to select a carrier frequency 1.9 kHz below the listed)
-2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open multipsk by typing 'Multipsk' in the windows search box
 4. Click the RX/TX button 
 
@@ -403,32 +403,16 @@ For other frequencies, refer to the Sigidwiki link above
 ## Procedure 
 
 1. Tune to 144.390MHz, NFM on the SDR
-2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open multipsk by typing 'Multipsk' in the windows search box
 4. Click the RX/TX button 
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/start1.png"
-  alt="MultiPSK"
-  width="auto"
-  height="auto">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/WeatherFax/start1.png?raw=true)
 
 5. Click the PACKET+APRS Button to start the decode. 
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/APRS/MPSK-start-APRS-Text.png"
-  alt="MultiPSK"
-  width="auto"
-  height="auto">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/APRS/MPSK-start-APRS-Text.png?raw=true)
 
 6. Click the APRS button to show the Map/location information
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/APRS/MPSK-start-APRS-Map.png"
-  alt="MultiPSK"
-  width="auto"
-  height="auto">
-
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/APRS/MPSK-start-APRS-Map.png?raw=true)
 </details>
 
 <details>
@@ -445,21 +429,17 @@ ACARS is a digital data link system for the transmission of messages between air
 [ACARS - Message example](https://www.flightkeeper.net/SampleACARS.html)
 
 ### Frequency
-129.125 MHz, AM
+130.025 MHz, AM
 For other frequencies, refer to the Sigidwiki link above
 
 ## Procedure 
 
-1. Tune to 129.12MHz AM on the SDR
-2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+1. Tune to 130.025MHz AM on the SDR
+2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open ACARS decoder by typing 'Black Cat ACARS' in the windows search box
 4. Black Cat ACARS interface now will start displaying the received ACARS messages
-
-<img
-  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/ACARS/ACARS-Decode.png"
-  alt="MultiPSK"
-  width="auto"
-  height="auto">
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/ACARS/ACARS-Decode.png?raw=true)
+ACARS Decode using Black Cat ACARS
 
 </details>
 
@@ -480,11 +460,11 @@ FT8 is a popular form of digital weak signal communication used primarily by ama
 ## Procedure 
 
 1. Tune to 3.573MHz USB on the SDR
-2. Route the audio to virtual loopbck cable - [Instructions in Audio routing section](#instructions-for-audio-routing)
+2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open WSJT-X decoder by typing 'WSJT-X' in the windows search box
 4. In WSJT-X, select the mode to FT8, band to 80m and observe the decode
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/FT8/FT8.png?raw=true)
-**Figure 1:** sdrtrunk Application Screenshot
+ FT8 Decode
 
 </details>
 
