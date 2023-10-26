@@ -430,11 +430,9 @@ FT8 is a popular form of digital weak signal communication used primarily by ama
 
 <details>
 
-<summary>Pending</summary>
+<summary>To do</summary>
 
 * CW
-
-* FT8
 
 * WSPR
 
