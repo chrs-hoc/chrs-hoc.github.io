@@ -5,7 +5,7 @@
 # California Historic Radio Society #
 ## Software Defined Radio @ Winchell Communications Center ##
 
-Setup/operating instructions for the SDR demo @ CHRS HoC
+Setup/operating instructions for the Software Defined Radio @ CHRS HoC
 
 <details>
 
@@ -225,7 +225,7 @@ Prerequisites
 
 ## Procedure ##
 
-1. Open the SDR-Trunk folder on the desktop
+1. Open SDR-Trunk folder on the desktop
 
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-folder.png"
@@ -233,6 +233,29 @@ Prerequisites
   width="70%"
   height="70%">
 
+2. Right click and open the SDR trunk Shortcut 
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-open.png"
+  alt="SDR Trunk folder"
+  width="70%"
+  height="70%">
+
+3. On "Auto start channels" window, click "Start now"
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-start.png"
+  alt="SDR Trunk folder"
+  width="70%"
+  height="70%">
+
+4. Give it a couple of seconds to initialize and connect to the trunk control channel
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk-running.png"
+  alt="SDR Trunk folder"
+  width="70%"
+  height="70%">
 
 </details>
 
