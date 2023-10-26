@@ -222,7 +222,18 @@ A trunked radio system is a two-way radio system that uses a control channel to 
 
 Prerequisites
 1. Close all SDR Software (SDR Uno or other frontend UI).
-2. Open the 
+
+## Procedure ##
+
+1. Open the SDR-Trunk folder on the desktop
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/trunked-radio/sdr-trunk.png"
+  alt="SDR Trunk folder"
+  width="70%"
+  height="70%">
+
+
 </details>
 
 
