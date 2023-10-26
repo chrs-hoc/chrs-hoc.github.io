@@ -348,21 +348,22 @@ Radiofax, also known as HF FAX, radiofacsimile or weatherfax, is a means of broa
 [Sigidwiki](https://www.sigidwiki.com/wiki/WEFAX)
 
 
-### Example station
+### Frequency (nearest)
 
 U.S. Coast Guard Communications Station NMC - Point Reyes, CA 
 
-Assigned frequencies 4346, 8682, 12786, 17151.2, 22527 kHz
+Assigned frequencies 4346, 8682, 12786, 17151.2, 22527 kHz / USB
 
 Select a carrier frequency 1.9 kHz below those listed when using a
 single sideband radio in the USB mode to receive these broadcasts.
 
 ## Procedure 
 
-1. Tune to the weatherfax station on the SDR (remember to select a carrier frequency 1.9 kHz below the listed)
+1. Tune to the weatherfax station on the SDR, USB (remember to select a carrier frequency 1.9 kHz below the listed)
 2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
 3. Open multipsk by typing 'Multipsk' on the windows search bar
 4. Click on the RX/TX button 
+
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/start1.png"
   alt="MultiPSK"
@@ -370,23 +371,64 @@ single sideband radio in the USB mode to receive these broadcasts.
   height="70%">
 
 5. Click on the FAX button to start decoding weather fax
+
 <img
   src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/weather-fax.png"
+  alt="Weatherfax"
+  width="auto"
+  height="auto">
+
+</details>
+
+<details>
+
+<summary> APRS - Automatic Packet Reporting System </summary>
+
+Amateur Packet Reporting System (APRS) is a digital communication system utilized by amateur radio operators to exchange messages and track locations utilizing GPS.
+
+[APRS Website](http://www.aprs.org/)
+
+[Wikipedia](https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System)
+
+[Sigidwiki](https://www.sigidwiki.com/wiki/Automatic_Packet_Reporting_System_(APRS))
+
+
+### Frequency
+144.390MHz, NFM
+
+## Procedure 
+
+1. Tune to 144.390MHz, NFM on the SDR
+2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+3. Open multipsk by typing 'Multipsk' on the windows search bar
+4. Click on the RX/TX button 
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/WeatherFax/start1.png"
+  alt="MultiPSK"
+  width="70%"
+  height="70%">
+
+5. Click on the PACKET+APRS Button to start the decode. 
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/APRS/MPSK-start-APRS-Text.png"
+  alt="MultiPSK"
+  width="70%"
+  height="70%">
+
+6. Click on the APRS button to show the Map
+
+<img
+  src="https://raw.githubusercontent.com/chrs-hoc/chrs-hoc.github.io/main/pic/APRS/MPSK-start-APRS-Map.png"
   alt="MultiPSK"
   width="70%"
   height="70%">
 
 </details>
-
-
 <details>
 
 <summary>Pending</summary>
-
-### Decoding data - audio encoded
-#### Basics 
-Explanation of basic decoding with virtual audio patch
-
 
 * CW
 
@@ -396,11 +438,8 @@ Explanation of basic decoding with virtual audio patch
 
 * ACARS
 
-* APRS 
 
 * AIS 
-
-
 
 * ISM/ Utility meter Standard Consumption Message (SCM) 
 
