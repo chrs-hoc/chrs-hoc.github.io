@@ -450,7 +450,7 @@ For other frequencies, refer to the Sigidwiki link above
 
 ## Procedure 
 
-1. Tune to 129.12MHz, AM on the SDR
+1. Tune to 129.12MHz AM on the SDR
 2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
 3. Open ACARS decoder by typing 'Black Cat ACARS' in the windows search box
 4. Black Cat ACARS interface now will start displaying the received ACARS messages
@@ -465,6 +465,32 @@ For other frequencies, refer to the Sigidwiki link above
 
 <details>
 
+<summary>FT8 -Franke & Taylor 8 </summary>
+FT8 is a popular form of digital weak signal communication used primarily by amateur radio operators to communicate on amateur radio bands with a majority of traffic occurring on the HF amateur bands.
+
+ [Wikipedia](https://en.wikipedia.org/wiki/FT8)
+ 
+ [Sigidwiki](https://www.sigidwiki.com/wiki/FT8)
+
+[WSJT-X](https://wsjt.sourceforge.io/wsjtx.html)
+
+### Frequency
+1.84 MHz - 144.174 MHz, USB
+
+## Procedure 
+
+1. Tune to 3.573MHz USB on the SDR
+2. Route the audio to virtual loopbck cable - [Instructions here](#instructions-for-audio-routing)
+3. Open WSJT-X decoder by typing 'WSJT-X' in the windows search box
+4. In WSJT-X, select the mode to FT8, band to 80m
+
+5.
+ 
+
+</details>
+
+<details>
+
 <summary>Pending</summary>
 
 * CW
@@ -472,9 +498,6 @@ For other frequencies, refer to the Sigidwiki link above
 * FT8
 
 * WSPR
-
-* ACARS
-
 
 * AIS 
 
