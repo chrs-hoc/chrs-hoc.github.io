@@ -236,7 +236,7 @@ Prerequisites
 
 3. On "Auto start channels" window, click "Start now"
 
-![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/trunked-radio/sdr-trunk-start.pngraw=true)
+![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/trunked-radio/sdr-trunk-start.png?raw=true)
 
 4. Give it a couple of seconds to initialize and connect to the trunk control channel
 
@@ -310,7 +310,7 @@ Radiofax, also known as HF FAX, radiofacsimile or weatherfax, is a means of broa
 
 [Sigidwiki](https://www.sigidwiki.com/wiki/WEFAX)
 
-[MultiPSK Documentation] (http://f6cte.free.fr/index_anglais.htm)
+[MultiPSK Documentation](http://f6cte.free.fr/index_anglais.htm)
 
 ### Frequency (nearest)
 
@@ -352,7 +352,7 @@ Amateur Packet Reporting System (APRS) is a digital communication system utilize
 
 
 ### Frequency
-144.390MHz, NFM
+144.390MHz, NFM.
 For other frequencies, refer to the Sigidwiki link above
 
 ## Procedure 
@@ -387,7 +387,7 @@ ACARS is a digital data link system for the transmission of messages between air
 [ACARS - Message example](https://www.flightkeeper.net/SampleACARS.html)
 
 ### Frequency
-130.025 MHz, AM
+130.025 MHz, AM.
 For other frequencies, refer to the Sigidwiki link above
 
 ## Procedure 
@@ -395,7 +395,7 @@ For other frequencies, refer to the Sigidwiki link above
 1. Tune to 130.025MHz AM on the SDR
 2. Route the audio to virtual loopbck cable - [Instructions in the Audio routing section](#instructions-for-audio-routing)
 3. Open ACARS decoder by typing 'Black Cat ACARS' in the windows search box
-4. Black Cat ACARS interface now will start displaying the received ACARS messages
+4. Black Cat ACARS interface will display the received ACARS messages
 
 ![Image](https://github.com/chrs-hoc/chrs-hoc.github.io/blob/main/pic/ACARS/ACARS-Decode.png?raw=true)
 ACARS Decode using Black Cat ACARS
