@@ -1,4 +1,4 @@
-# California Historic Radio Society #
+# California Historical Radio Society #
 ## Software Defined Radio @ Winchell Communications Center ##
 
 Setup/operating instructions for the Software Defined Radio @ CHRS HoC
